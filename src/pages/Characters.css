@@ -1,0 +1,26 @@
+/* src/pages/Characters.css */
+.characters {
+  padding: 20px;
+  color: #fff;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.load-more {
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.load-more:hover {
+  background-color: #71065b;
+}

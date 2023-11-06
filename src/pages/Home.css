@@ -1,0 +1,17 @@
+/* Home.css */
+
+p {
+  background: linear-gradient(to bottom, var(--gradient-color-1), var(--gradient-color-2));
+  color: transparent; /* Hide the original text color */
+  display: inline-block; /* To make the background gradient visible */
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  padding: 40px;
+  -webkit-background-clip: text; /* Apply gradient as text color for Webkit browsers */
+  background-clip: text; /* Apply gradient as text color for non-Webkit browsers */
+}
+
+:root {
+  --gradient-color-1: #f2acf2;
+  --gradient-color-2: #8d98ed;
+}
