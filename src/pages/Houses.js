@@ -37,10 +37,12 @@ function Houses() {
           </Link>
         ))}
       </div>
+      <div className="loading">
       {loading && <p>Loading...</p>}
       {!loading && (
         <button onClick={handleLoadMore}>Load More</button>
       )}
+      </div>
     </div>
   );
 }
