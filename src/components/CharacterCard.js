@@ -8,9 +8,9 @@ const CharacterCard = ({ character }) => {
         <h2>{character.name || character.aliases[0]}</h2>
         <p>Culture: {character.culture}</p>
         <p>Gender: {character.gender || 'Unknown'}</p>
-        {/* <img src={character.gender ===   'Male' ? '/male-icon.png' :    '/female-icon.png'}
+        <img src={character.gender ===   'Male' ? '/male-icon.png' :    '/female-icon.png'}
         alt="Gender Icon"
-        /> */}
+        />
         <p>Born: {character.born || 'Unknown'}</p>
         <p>Died: {character.died || 'Unknown'}</p>
         <p>Titles: {character.titles || 'Unknown'}</p>
