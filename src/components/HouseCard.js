@@ -12,6 +12,7 @@ const HouseCard = ({ house }) => {
         <p>Seats: {house.seats.join(', ')}</p>
         <p>CurrentLord: {house.currentlord}</p>
         <p>Heir: {house.heir}</p>
+        {/* <p>Sworn Members {house.swornMembers.join(',')}</p> */}
         {/* <p>Sworn Members {house.swornMembers.join('character.id,')}</p> */}
     </div>
   );
