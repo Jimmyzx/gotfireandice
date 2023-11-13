@@ -14,7 +14,7 @@ function Houses() {
     const fetchHouses = async () => {
       setLoading(true);
       const response = await axios.get(
-        `https://anapioficeandfire.com/api/houses?page=${page}&pageSize=10`
+        `https://anapioficeandfire.com/api/houses?page=${page}&pageSize=5`
       );
       setHouses((prevHouses) => [...prevHouses, ...response.data]);
       setLoading(false);

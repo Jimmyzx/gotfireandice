@@ -14,7 +14,7 @@ function Characters() {
     const fetchCharacters = async () => {
       setLoading(true);
       const response = await axios.get(
-        `https://anapioficeandfire.com/api/characters?page=${page}&pageSize=10`
+        `https://anapioficeandfire.com/api/characters?page=${page}&pageSize=5`
       );
       setCharacters((prevCharacters) => [...prevCharacters, ...response.data]);
       setLoading(false);
