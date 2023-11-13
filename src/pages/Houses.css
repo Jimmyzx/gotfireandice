@@ -1,9 +1,6 @@
 /* src/pages/Houses.css */
 .houses {
-  @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Inter&display=swap');
-  font-family: 'Cinzel Decorative', serif;
-  font-family: 'Inter', sans-serif;
-  padding: 20px;
+  padding: 10px;
   color: #fff;
 }
 
@@ -12,18 +9,20 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
-.load-more {
+
+.loading button {
   background-color: #333;
   color: white;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
+  font-weight: bold;
   text-decoration: none;
 }
 
-.load-more:hover {
+.loading button:hover {
   background-color: #71065b;
 }
