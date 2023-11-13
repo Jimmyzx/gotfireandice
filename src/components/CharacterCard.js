@@ -4,7 +4,8 @@ import './CharacterCard.css';
 const CharacterCard = ({ character }) => {
   return (
     <div className="character-card">
-      <Link to={`/characters/${character.id}`}>
+      {/* <Link to={`/characters/${character.id}`}> */}
+      <Link to={`/characters/${character.url.replace(/[^0-9]/g,"")}`} key={character.url}>
         <h2>{character.name || character.aliases[0]}</h2>
         <p>Culture: {character.culture}</p>
         <p>Gender: {character.gender || 'Unknown'}</p>

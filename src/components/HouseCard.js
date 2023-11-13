@@ -1,9 +1,12 @@
 // src/components/HouseCard.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HouseCard.css';
 const HouseCard = ({ house }) => {
   return (
     <div className="house-card">
+        {/* <Link to={`/houses/${house.id}`}></Link> */}
+        <Link to={`/houses/${house.url.replace(/[^0-9]/g,"")}`} key={house.url}></Link> 
         <h2>{house.name}</h2>
         <p>Founder: {house.founder}</p>
         <p>Founded: {house.founded}</p>
