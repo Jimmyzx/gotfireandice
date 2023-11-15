@@ -50,16 +50,16 @@ const HouseCard = ({ house }) => {
   }, [house.currentLord, house.overlord, house.heir]);
 
   return (
-    <div className="house-card">
-      <Link to={`/houses/${house.url.replace(/[^0-9]/g, "")}`} key={house.url}>
+    <Link to={`/houses/${house.url.replace(/[^0-9]/g, "")}`} key={house.url}>
+      <div className="house-card">
         <h2>{house.name}</h2>
         <p>Words: {house.words}</p>
         <p>Seats: {house.seats.join(', ')}</p>
         <p>Current Lord: {loading ? 'Loading...' : currentLord || 'Unknown'}</p>
         <p>Overlord: {loading ? 'Loading...' : overlord || 'Unknown'}</p>
         <p>Heir: {loading ? 'Loading...' : heir || 'Unknown'}</p>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 };
 

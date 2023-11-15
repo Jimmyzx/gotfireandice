@@ -25,8 +25,8 @@ const CharacterCard = ({ character }) => {
   }, [character.allegiances]);
 
   return (
-    <div className="character-card">
-      <Link to={`/characters/${character.url.replace(/[^0-9]/g, "")}`} key={character.url}>
+    <Link to={`/characters/${character.url.replace(/[^0-9]/g, "")}`} key={character.url}>
+      <div className="character-card">
         <h2>{character.name || character.aliases[0]}</h2>
         <img
         src={process.env.PUBLIC_URL + (character.gender === 'Male' ? '/male-icon.png' : '/female-icon.png')}
@@ -38,8 +38,8 @@ const CharacterCard = ({ character }) => {
         <p>Titles: {character.titles.join(', ') || 'Unknown'}</p>
         <p>Spouse: {character.spouse || 'Unknown'}</p>
         <p>Allegiances: {allegianceNames.join(', ') || 'Unknown'}</p>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 };
 
