@@ -1,3 +1,54 @@
+# GOT Fire and Ice
+
+[Live Demo](https://jimmyzx.github.io/gotfireandice/)
+
+## Description
+
+GOT Fire and Ice is a web application that provides information about characters and houses from the "Game of Thrones" series. Users can explore details about characters, their relationships, and information about the noble houses in the series.
+
+## Features
+
+1. **Character Information**: View details about characters, including their name, gender, culture, titles, and more.
+
+2. **House Information**: Explore information about noble houses, including titles, founding details, current lords, and sworn members.
+
+3. **Interactive Navigation**: Users can navigate between characters and houses seamlessly.
+
+4. **Load More Functionality**: The ability to load more characters or houses as the user scrolls for an extended list.
+
+## User Flow
+
+1. **Homepage**: Users land on the homepage, where they can see a list of characters and houses.
+
+2. **Characters Page**: Clicking on a character's card takes users to a detailed page about that character, displaying information such as name, aliases, gender, culture, etc.
+
+3. **Houses Page**: Clicking on a house's card takes users to a detailed page about that house, displaying information like titles, founding details, current lord, and sworn members.
+
+4. **Load More**: Users can load more characters or houses to explore additional content.
+
+## API
+
+The application uses the "An API of Ice And Fire" (https://anapioficeandfire.com/) to fetch data about characters and houses from the series.
+
+## Technology Stack
+
+- React: JavaScript library for building the user interface.
+- Axios: Promise-based HTTP client for making API requests.
+- React Router: Library for navigation in a React application.
+- CSS: Styling for the application.
+- GitHub Pages: Deployment platform.
+
+## Notes
+
+- The application provides an intuitive way for users to explore information about characters and houses from the "Game of Thrones" series.
+
+- Continuous updates and improvements may be made based on user feedback and additional features.
+
+Feel free to report issues or provide feedback!
+
+![image](https://github.com/Jimmyzx/gotfireandice/assets/125935094/13110902-697b-4219-89cc-59881c115cae)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
