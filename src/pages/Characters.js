@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import CharacterCard from '../components/CharacterCard';
 import axios from 'axios'; // Import Axios
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom for character links
 import './Characters.css';
 
 function Characters() {
@@ -32,9 +31,7 @@ function Characters() {
       <h1>Characters</h1>
       <div className="character-list">
         {characters.map((character) => (
-          <Link to={`/characters/${character.id}`} key={character.id}> {/* Wrap the CharacterCard with a Link */}
-            <CharacterCard character={character} />
-          </Link>
+          <CharacterCard character={character} />
         ))}
       </div>
       <div className='loading'>

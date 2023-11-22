@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import HouseCard from '../components/HouseCard';
 import axios from 'axios'; // Import Axios
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom for house links
 import './Houses.css';
 
 function Houses() {
@@ -32,9 +31,7 @@ function Houses() {
       <h1>Houses</h1>
       <div className="house-list">
         {houses.map((house) => (
-          <Link to={`/houses/${house.id}`} key={house.id}> {/* Wrap the HouseCard with a Link */}
-            <HouseCard house={house} />
-          </Link>
+          <HouseCard house={house} />
         ))}
       </div>
       <div className="loading">
