@@ -1,15 +1,15 @@
 // CharactersAndHouses.js
 
 import React from 'react';
-import Characters from './Characters'; // Import the Characters component
-import Houses from './Houses';       // Import the Houses component
+import Characters from './Characters'; 
+import Houses from './Houses';      
 
 function CharactersAndHouses() {
   return (
     <div>
       <h1>Characters & Houses</h1>
-      <Characters /> {/* Display the Characters component */}
-      <Houses />     {/* Display the Houses component */}
+      <Characters />
+      <Houses />    
     </div>
   );
 }

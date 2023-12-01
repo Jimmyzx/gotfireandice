@@ -43,7 +43,7 @@ const Character = () => {
     };
 
     fetchCharacter();
-  }, [id, character]); // Added 'character' to the dependency array
+  }, [id, character]); 
 
   return (
     <div className="character">

@@ -1,7 +1,6 @@
-// src/pages/Characters.js
 import React, { useState, useEffect } from 'react';
 import CharacterCard from '../components/CharacterCard';
-import axios from 'axios'; // Import Axios
+import axios from 'axios'; 
 import './Characters.css';
 
 function Characters() {

@@ -1,7 +1,6 @@
-// src/pages/Houses.js
 import React, { useState, useEffect } from 'react';
 import HouseCard from '../components/HouseCard';
-import axios from 'axios'; // Import Axios
+import axios from 'axios'; 
 import './Houses.css';
 
 function Houses() {
