@@ -1,5 +1,3 @@
-// CharactersAndHouses.js
-
 import React from 'react';
 import Characters from './Characters'; 
 import Houses from './Houses';      
