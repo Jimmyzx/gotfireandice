@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gotfireandice/static/css/main.49c64240.css",
-    "main.js": "/gotfireandice/static/js/main.e50db084.js",
+    "main.js": "/gotfireandice/static/js/main.20def0fb.js",
     "static/media/gameofthrones.mp3": "/gotfireandice/static/media/gameofthrones.7f2c7c7262e63b22ae5c.mp3",
     "static/media/bcgrfirenice.png": "/gotfireandice/static/media/bcgrfirenice.277c07fa4e336be58a11.png",
     "index.html": "/gotfireandice/index.html",
     "main.49c64240.css.map": "/gotfireandice/static/css/main.49c64240.css.map",
-    "main.e50db084.js.map": "/gotfireandice/static/js/main.e50db084.js.map"
+    "main.20def0fb.js.map": "/gotfireandice/static/js/main.20def0fb.js.map"
   },
   "entrypoints": [
     "static/css/main.49c64240.css",
-    "static/js/main.e50db084.js"
+    "static/js/main.20def0fb.js"
   ]
 }
