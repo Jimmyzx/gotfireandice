@@ -16,6 +16,9 @@ GOT Fire and Ice is a web application that provides information about characters
 
 4. **Load More Functionality**: The ability to load more characters or houses as the user scrolls for an extended list.
 
+5. **Audio Accompaniment:** Immerse yourself in the Game of Thrones experience with an audio track playing in the background.
+
+
 ## User Flow
 
 1. **Homepage**: Users land on the homepage, where they can see a list of characters and houses.
